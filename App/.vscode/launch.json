@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+        {
+            "name": "SaaS Sandbox Suitech - ValidacionExtensiones",
+            "request": "launch",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "ValidacionExtensiones",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "tenant": "c577a2ee-29d6-49f1-a1e7-cca921df2f14",
+            "schemaUpdateMode": "Synchronize"
+        },
+  ]
+}
