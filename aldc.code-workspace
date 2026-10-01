@@ -1,0 +1,30 @@
+{
+  // Multi-root workspace for this AL solution, seeded by ALDC from the folders that
+  // existed at installation. ALDC never rewrites this file: adjust it freely.
+  // The declared layout lives in aldc.yaml under `solution.roots`.
+  //
+  // The BCQuality root has no app.json, so the AL compiler never builds it and its
+  // example objects cannot reach your extension. Run tools/bcquality/install.sh
+  // (install.ps1 on Windows) if that root shows as missing.
+  "folders": [
+    {
+      "name": "mi-workshop",
+      "path": "."
+    },
+    {
+      "name": "Application",
+      "path": "App"
+    },
+    {
+      "name": "Tests",
+      "path": "Test"
+    },
+    {
+      "name": "BCQuality (knowledge, not compiled)",
+      "path": "../bcquality"
+    }
+  ],
+  "settings": {
+    "git.detectSubmodules": false
+  }
+}

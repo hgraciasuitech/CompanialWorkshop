@@ -7,6 +7,11 @@
   ],
   "settings": {
     "al.enableCodeAnalysis": true,
-    "al.codeAnalyzers": ["${CodeCop}", "${UICop}", "${PerTenantExtensionCop}"]
+    "al.codeAnalyzers": [
+      "${CodeCop}",
+      "${UICop}",
+      "${PerTenantExtensionCop}"
+    ],
+    "al-collection.profile": "bc28"
   }
 }
