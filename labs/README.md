@@ -1,0 +1,43 @@
+# Laboratorios
+
+## Cómo avanza el taller
+
+ALDC se instala y prepara en el preflight. Los Labs 01–03 enseñan a usar primitivas del ejercicio, distribuirlas como plugin y mejorar una instrucción a partir de evidencia. El Lab 04 comienza el uso explícito del flujo de arquitectura y especificación de ALDC; el Lab 05 implementa lo aprobado.
+
+| Material | Procedencia | Uso |
+|---|---|---|
+| Agentes, instrucciones y skills de ALDC | Toolkit preparado en el preflight | Permanecen disponibles durante toda la jornada |
+| Skill review-date-rules, agente followup-reviewer y prompt | Plantillas del ejercicio | Copias locales en Lab 01; plugin desde Lab 02 |
+| BCQuality | Carpeta adicional del workspace | Conocimiento citado para diseño y revisión |
+
+Al retirar las primitivas locales del Lab 02 no retires ALDC. Su presencia puede influir también en las primeras revisiones; registra el contexto realmente cargado.
+
+## Jornada completa · castellano · GitHub Copilot Chat
+
+| Lab | Bloque | Práctica | Guía |
+|---|---|---:|---|
+| 01 | Primitivas y reglas de fechas | 20 min | [Contrato y contexto](jornada/01-contrato-y-contexto.md) |
+| 02 | Primer plugin | 18 min | [Plugin utilizable](jornada/02-plugin-utilizable.md) |
+| 03 | Observar y mejorar | 13 min | [Una mejora observable](jornada/03-mejora-observable.md) |
+| 04 | ALDC, arquitectura y especificación | 20 + 6 min | [Requisito a especificación](jornada/04-requisito-a-especificacion.md) |
+| 05 | Implementación delegada | 27 min | [Incremento implementado](jornada/05-incremento-implementado.md) |
+| 06 | BCQuality | 16 min | [Revisión citada](jornada/06-revision-citada.md) |
+| 07 | APM | 18 min | [Contexto como dependencia](jornada/07-contexto-como-dependencia.md) |
+| 08 | Aceptación y transferencia | 10 + 7 min | [Entregar a otra persona](jornada/08-entregar-a-otra-persona.md) |
+
+Entre el Lab 05 y el Lab 06 hay un bloque de revisión y corrección (18 min) y, tras el Lab 06, el checkpoint de aceptación y el recorrido en Customer Card. Los pasos están en la guía del [Lab 05](jornada/05-incremento-implementado.md#después-de-comer-revisión-y-corrección).
+
+## Directions EMEA · English
+
+[Participant guide](directions/README.md): four labs in 105 minutes.
+
+## Material de trabajo
+
+[`material/`](material): hoja de especificación, ficha antes/después, tarjeta de entrada ALDC, recorrido de la ficha y ampliación opcional de historial.
+
+[Scripts para participantes](../tools/README.md): preparar las primitivas del Lab 01, montar el plugin del Lab 02 y retirar/restaurar las copias locales. Las guías enlazan cada comando en el paso correspondiente.
+
+
+## Guardar y recuperar etapas
+
+[Checkpoints y recuperación](../docs/checkpoints.md): guardar tu trabajo por archivos concretos, verificar el push y continuar desde una etapa preparada en otra carpeta. Las ramas de recuperación no instalan ALDC ni cambian el sandbox.
